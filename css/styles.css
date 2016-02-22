@@ -1,0 +1,214 @@
+/*****************************************************************************************************************************/
+/* Reset - Redefinitions des balises HTML */ 
+/*****************************************************************************************************************************/
+@import url(fonts.css);
+
+*{margin:0; padding:0;}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, select, textarea, blockquote{font-family:'wf_SegoeUISemiBold', Arial, Helvetica, sans-serif; font-size:22px; color:#fff; font-weight:normal;}
+
+fieldset, img{border:0}
+address, caption, cite, code, dfn, em, strong, th, var{font-style:normal; font-weight:normal;}
+
+a{color:#fff; text-decoration:none; outline:none;}
+a:hover{text-decoration:none;}
+
+input:focus{outline:none;}
+
+select option{padding:0 3px;}
+
+ul li{list-style:none;}
+
+table{border-collapse:collapse; border-spacing:0;}
+
+iframe{border:none;}
+
+hr{display:none;}
+
+textarea{resize:vertical;}
+
+img{vertical-align:middle;}
+
+			
+		
+	
+/*****************************************************************************************************************************/
+
+/*****************************************************************************************************************************/
+/* CLASS génériques */ 
+/*****************************************************************************************************************************/
+	strong{font-weight:bold;}
+	em{font-style:italic;}
+	
+	.clearfix:before,
+	.clearfix:after{content:" "; display:table;}
+	
+	.clearfix:after{clear:both;}
+	
+	.clearfix{*zoom:1;}
+	
+	.clear{clear:both; height:0px; font-size:0px;}
+	
+	.hidetext{font-size:0px; text-indent:-9999px; display:block;}
+	
+
+
+
+/*****************************************************************************************************************************/
+
+/*****************************************************************************************************************************/
+/* Structure generale */ 
+/*****************************************************************************************************************************/
+	body {
+		text-align: center;
+		background: #fff;
+	}
+	
+	#forum-container {
+		position: relative;
+		width: 650px;
+		text-align: left;
+		margin: 0 auto;
+	}
+	
+	
+		/* partie haute */
+		#forum-container .part-top {
+			position: relative;
+			width: 650px;
+			height: 857px;
+			background: url(../images/bg-part-top.gif) no-repeat;
+		}
+		
+			#forum-container .part-top h1, 
+			#forum-container .part-top h2 {
+				position: absolute;
+				top: 57px;
+				left: 235px;
+				font-family: 'Conv_EurostileLTStd-BoldCn';
+				font-size: 40px;
+				color: #fff;
+				text-transform: uppercase;
+				line-height: 36px;
+			}
+			
+			#forum-container .part-top h2 {
+				top: 423px;
+				left: 69px;
+			}
+			
+			#forum-container .part-top p {
+				position: absolute;
+				top: 228px;
+				left: 328px;
+				width: 246px;
+				padding: 0 0 0 65px;
+				background: url(../images/arrow.png) no-repeat;
+				font-size: 25px;
+				line-height: 30px;
+			}
+			
+			#forum-container .part-top p.txt-2 {
+				top: 705px;
+			}
+			
+				#forum-container .part-top p span {
+					font-family: 'wf_SegoeUI';
+				}
+				
+				#forum-container .part-top p strong {
+					font-family: 'wf_SegoeUIBold';
+					font-weight: normal;
+				}
+				
+			#forum-container .part-top ul li {
+				position: absolute;
+			}
+			
+			#forum-container .part-top ul li.li-1 {
+				bottom: 251px;
+				left: 117px;
+				font-size: 24px;
+			}
+			
+			#forum-container .part-top ul li.li-2 {
+				bottom: 178px;
+				left: 35px;
+			}
+			
+			#forum-container .part-top ul li.li-3 {
+				bottom: 185px;
+				left: 230px;
+				font-size: 23px;
+			}
+			
+			
+		/* partie basse */
+		#forum-container .part-bot {
+			position: relative;
+			width: 650px;
+			height: 1076px;
+			padding-top: 38px;
+			background: url(../images/bg-part-bot.gif) no-repeat;
+			box-sizing: border-box;
+		}
+			
+			#forum-container .part-bot ul li {
+				text-align: center;
+			}
+			
+				#forum-container .part-bot h3 {
+					font-family: 'Conv_EurostileLTStd-BoldCn';
+					font-size: 40px;
+					color: #fff;
+					text-transform: uppercase;
+					line-height: 70px;
+				}
+				
+				#forum-container .part-bot ul li ul {
+					display: inline-block;
+				}
+				
+					#forum-container .part-bot ul li li {
+						float: left;
+						padding: 0 11px;
+						line-height: 29px;
+						box-sizing: border-box;
+					}
+					
+					#forum-container .part-bot ul li.li-1 li {
+						height: 99px;
+						padding-top: 27px;
+					}
+					#forum-container .part-bot ul li.li-2 li {
+						height: 103px;
+						padding-top: 39px;
+					}
+					#forum-container .part-bot ul li.li-3 li {
+						height: 89px;
+						padding-top: 25px;
+					}
+					#forum-container .part-bot ul li.li-4 li {
+						height: 88px;
+						padding-top: 25px;
+					}
+					#forum-container .part-bot ul li.li-5 li {
+						height: 93px;
+						padding-top: 24px;
+					}
+					#forum-container .part-bot ul li.li-6 li {
+						padding-top: 33px;
+					}
+	
+	
+		/* footer */
+		#forum-container footer {
+			height: 80px;
+			background: #007acd;
+		}
+		
+		#forum-container footer div {
+			padding: 24px 24px 0 0;
+			text-align: right;
+		}
+		
